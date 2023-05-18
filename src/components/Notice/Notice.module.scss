@@ -5,19 +5,30 @@
   color: #ffffff;
   background-color: transparent;
   border: none;
-  cursor: pointer;
 
-  .notice__label {
+  .notice_label {
     margin-right: 5px;
     color: #ffffff;
   }
 
-  .notice__count {
+  .notice_label_alert {
+    color: #ff3333;
+    //box-shadow: 0 0 10px 10px #ff3333;
+  }
+
+  .notice_count {
     position: absolute;
-    top: 5px;
-    left: 28px;
+    color: #ff3333;
+    top: 35px;
+    left: 41px;
     font-size: 20px;
     line-height: 28px;
     align-self: end;
   }
+}
+
+.btn {
+  color: #ffffff;
+  background-color: transparent;
+  padding: 0 20px;
 }
