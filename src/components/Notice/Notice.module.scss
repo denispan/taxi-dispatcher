@@ -1,0 +1,23 @@
+.notice {
+  display: flex;
+  position: relative;
+  align-items: center;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  .notice__label {
+    margin-right: 5px;
+    color: #ffffff;
+  }
+
+  .notice__count {
+    position: absolute;
+    top: 5px;
+    left: 28px;
+    font-size: 20px;
+    line-height: 28px;
+    align-self: end;
+  }
+}
